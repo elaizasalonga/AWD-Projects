@@ -1,7 +1,11 @@
 let display = document.getElementById('display');
 
 function appendToDisplay(value) {
-    display.value += value;
+    if (value === '<') {
+        display.value = display.value.slice(0, -1);
+    } else {
+        display.value += value;
+    }
 }
 
 function calculate() {
