@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background: linear-gradient(to right, #ffcccc, #cc99ff);
+    background: linear-gradient(to right, #ffcccc, #cc99ff);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,8 +19,8 @@ body {
 
 #display {
     width: 95%;
-    margin-bottom: 10px; /* Adjusted margin */
-    padding: 8px; /* Adjusted padding */
+    margin-bottom: 10px;
+    padding: 8px;
     font-size: 20px;
     text-align: right;
     font-weight: bolder;
@@ -49,3 +49,4 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
